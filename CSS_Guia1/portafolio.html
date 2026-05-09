@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portafolio Académico</title>
+
+  <!-- CSS INTERNO: estilos específicos de esta página -->
+  <style>
+    h1 {
+      text-align: center;
+      color: white;
+      background-color: #0077ff;
+      padding: 20px;
+      letter-spacing: 2px;
+      margin: 0;
+    }
+
+    h2 {
+      color: #0077ff;
+      border-left: 5px solid #0077ff;
+      padding-left: 12px;
+      margin-bottom: 10px;
+    }
+
+    footer {
+      text-align: center;
+      background-color: #222;
+      color: white;
+      padding: 15px;
+      margin-top: 30px;
+      font-size: 14px;
+      letter-spacing: 1px;
+    }
+  </style>
+
+  <!-- CSS EXTERNO: archivo separado con estilos globales -->
+  <link rel="stylesheet" href="estilos-portafolio.css">
+</head>
+<body>
+
+  <!-- ENCABEZADO -->
+  <!-- CSS EN LÍNEA: aplicado directamente al elemento h1 -->
+  <h1 id="titulo" style="font-size: 2rem; font-family: Georgia, serif;">
+    📚 Mi Portafolio Académico
+  </h1>
+
+  <main class="contenedor">
+
+    <!-- SECCIÓN: Sobre mí -->
+    <div class="seccion">
+      <h2>👤 Sobre mí:Jamir Alexander</h2>
+      <!-- CSS EN LÍNEA: color puntual en este párrafo -->
+      <p style="color: #2a7a2a; font-weight: bold;">
+        Soy estudiante en formación en el área de desarrollo web, apasionado por
+        la tecnología y el aprendizaje continuo.
+      </p>
+      <p>
+        Me interesa el diseño de interfaces, la programación y la creación de
+        experiencias digitales que aporten valor a las personas.
+      </p>
+    </div>
+
+    <!-- SECCIÓN: Módulos cursados -->
+    <div class="seccion">
+      <h2>📖 Módulos trabajados</h2>
+      <ul>
+        <li class="destacado">Fundamentos de Informática</li>
+        <li>Programación Básica</li>
+        <li>Diseño de Páginas Web con HTML5</li>
+        <li class="destacado">Introducción al CSS</li>
+      </ul>
+    </div>
+
+    <!-- SECCIÓN: Evidencias -->
+    <div class="seccion">
+      <h2>🗂️ Evidencias de aprendizaje</h2>
+      <p>
+        He desarrollado páginas web básicas utilizando HTML y CSS, aplicando
+        estilos y organizando contenido de forma estructurada.
+      </p>
+      <p>
+        Durante el módulo de CSS aprendí a usar los tres tipos de estilos:
+        <strong>inline</strong>, <strong>interno</strong> y <strong>externo</strong>,
+        así como los selectores: universal, etiqueta, clase e ID.
+      </p>
+    </div>
+
+    <!-- SECCIÓN: Contacto -->
+    <div class="seccion" id="contacto">
+      <h2>📬 Contacto</h2>
+      <p>Email: <a href="mailto:estudiante@email.com">estudiante@email.com</a></p>
+      <p>
+        <a href="https://github.com/Jamir91/Modulo-5.1" class="boton">Visitar mi GitHub</a>
+        <a href="https://tareacursodeprogrmacionweb.blogspot.com/2026/05/css.html" class="boton">Visitar mi Blog</a>
+      </p>
+    </div>
+
+  </main>
+
+  <!-- PIE DE PÁGINA -->
+  <footer>
+    <p>© 2026 — Mi Portafolio Académico | Módulo 6: Introducción al CSS</p>
+  </footer>
+
+</body>
+</html>

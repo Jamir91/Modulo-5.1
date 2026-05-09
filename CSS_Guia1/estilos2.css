@@ -1,0 +1,12 @@
+/* Combinación de selectores (Hijo directo) [6] */
+.contenedor > p {
+    color: darkgreen;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+/* Estilo general para diferenciar el fondo */
+.contenedor {
+    background-color: #f5f5f5;
+    padding: 20px;
+}
